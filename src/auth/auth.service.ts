@@ -5,7 +5,7 @@ import { compare } from 'bcrypt';
 import { JwtService } from '@nestjs/jwt';
 import { GoogleDto } from './dto/google.dto';
 
-const EXPIRE_TIME = 120 * 1000;
+const EXPIRE_TIME = 140 * 1000;
 
 @Injectable()
 export class AuthService {
